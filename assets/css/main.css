@@ -1626,7 +1626,7 @@ input, select, textarea {
 		cursor: pointer;
 		border: 0;
 		border-radius: 5px;
-		background: #d52349;
+		background: #4285f4;
 		color: #fff !important;
 		font-weight: 700;
 		outline: 0;
@@ -1644,7 +1644,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background: #e53359;
+			background: #4d7fd1;
 		}
 
 		input[type="button"]:active,
@@ -1652,7 +1652,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background: #c51349;
+			background: #4d7fd1;
 		}
 
 		input[type="button"].alt,
@@ -1660,7 +1660,7 @@ input, select, textarea {
 		input[type="reset"].alt,
 		button.alt,
 		.button.alt {
-			background: #252122;
+			background: #4285f4;
 		}
 
 			input[type="button"].alt:hover,
@@ -1668,7 +1668,7 @@ input, select, textarea {
 			input[type="reset"].alt:hover,
 			button.alt:hover,
 			.button.alt:hover {
-				background: #353132;
+				background: #4d7fd1;
 			}
 
 			input[type="button"].alt:active,
@@ -1676,7 +1676,7 @@ input, select, textarea {
 			input[type="reset"].alt:active,
 			button.alt:active,
 			.button.alt:active {
-				background: #151112;
+				background: #4d7fd1;
 			}
 
 		input[type="button"].icon:before,
@@ -2186,6 +2186,16 @@ input, select, textarea {
 
 	#banner {
 		background: #CCE8F4 url("../../images/linkedin-blue.png");
+		background-position: center center;
+		background-size: auto 100%;
+		background-repeat: no-repeat;
+		text-align: center;
+		position: relative;
+		padding: 8em 0;
+		margin: 4em 0 0 0;
+	}
+	#banner2 {
+		background: #CCE8F4 url("../../images/linkedin-red.png");
 		background-position: center center;
 		background-size: auto 100%;
 		background-repeat: no-repeat;
