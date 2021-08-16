@@ -185,7 +185,7 @@ input, select, textarea {
 
 		@media screen and (max-width: 1680px) {
 
-			.container,.headimg {
+			.container {
 				width: 70em;
 			}
 
@@ -205,6 +205,10 @@ input, select, textarea {
 			.container {
 				width: calc(100% - 80px);
 			}
+			.headerimg{
+				display: block;
+                width: 100%;
+			}
 
 		}
 
@@ -212,6 +216,10 @@ input, select, textarea {
 
 			.container {
 				width: calc(100% - 40px);
+			}
+			.headerimg{
+				display: block;
+                width: 100%;
 			}
 
 		}
