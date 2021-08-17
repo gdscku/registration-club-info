@@ -37,7 +37,7 @@ body {
     list-style-type: disc;
     list-style-position: inside;
 }
-p, h2 {
+p, h2, .roles ul {
 	font-family: Google Sans, Helvetica Neue !important;
 	line-height: 1.5em;
 }
