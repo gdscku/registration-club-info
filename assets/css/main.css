@@ -35,6 +35,9 @@ body {
 p, h2 {
 	font-family: Google Sans, Helvetica Neue !important;
 }
+h2 {
+	line-height: 1.5em;
+}
 
 ol, ul {
 	list-style: none;
